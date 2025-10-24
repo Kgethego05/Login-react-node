@@ -13,7 +13,7 @@ const Registerform = () => {
 
     e.preventDefault();
     
-    const response =await fetch('http://localhost:3000/api/register',{
+    const response =await fetch('https://login-react-node-1-k25g.onrender.com/api/register',{
       method: 'POST',
       headers:{
         'Content-Type' : 'application/json',
